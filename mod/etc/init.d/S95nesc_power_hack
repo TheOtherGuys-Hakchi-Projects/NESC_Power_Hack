@@ -1,4 +1,7 @@
 #!/bin/sh
 # Swingflip - ModMyClassic.com https://discord.gg/8gygsrw
 
-rm -f /var/lib/clover/profiles/0/shutdown.txt
+while true; do
+    sleep 10
+    rm -f /var/lib/clover/profiles/0/shutdown.txt
+done &
